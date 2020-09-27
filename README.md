@@ -1,12 +1,15 @@
-Run the code like this:
+Disclaimer(!!!):
+    -   The original code was taken from `https://github.com/shantnu/FaceDetect.git`, which helped me with the face detection stage
+    -   None of the xmls belongs to me
+    -   I've just took different sources from the internet, edited them a little to detect masks and then went off
 
-*python face_detect.py abba.png*
+Dependencies:
+    -   python 3.x
+    -   OCV3
+    -   Camera or images
 
-If you want to understand how the code works, the details are here:
+Example to run mask detection with stale image:
+*python face_detect.py <image_path>*
 
-https://realpython.com/blog/python/face-recognition-with-python/
-
-
-Update: Now supports OpenCV3. This change has been made by furetosan ( https://github.com/furetosan) and tested on Linux.
-
-To run the OpenCV3 version, run facedetect_cv3.py.
+Example to run mask detection with camera:
+*python live.py*

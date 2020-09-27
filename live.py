@@ -6,9 +6,8 @@ import cv2
 cap = cv2.VideoCapture(0)
 
 # Create the haar cascade
-# eyesCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-eyesCascade = cv2.CascadeClassifier("frontalEyes35x16.xml")
-mountCascade = cv2.CascadeClassifier("Mouth.xml")
+eyesCascade = cv2.CascadeClassifier("xmls/frontalEyes35x16.xml")
+mountCascade = cv2.CascadeClassifier("xmls/Mouth.xml")
 
 while True:
 	# Capture frame-by-frame
