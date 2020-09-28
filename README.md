@@ -7,14 +7,14 @@ Disclaimer(!!!):
 Dependencies:
    
     -   python 3.x
-   
     -   OCV3
-   
     -   Camera or images
 
 
 Example to run mask detection with stale image:
+
 *python face_detect.py <image_path>*
 
 Example to run mask detection with camera:
+
 *python live.py*
